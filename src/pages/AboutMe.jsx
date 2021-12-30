@@ -10,7 +10,7 @@ export const AboutMe = () => {
                 <p>My name is Chong Shing Nam. A responsible person with problem-solving skills and quick learner.</p> 
                 <p>I'm graduated from the Eletronic Engineering at Feng Chia University in June, 2021 at Taiwan. Passionate about changing the world with technology. In my free time I like working on side projects.</p>
                 <div className="center">
-                    <a href="">Resume<FaDownload /></a>
+                    <a href="" download>Resume<FaDownload /></a>
                 </div>
             </div>
             <h1 className="title">EDUCATION</h1>
