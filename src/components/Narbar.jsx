@@ -13,7 +13,7 @@ function Narbar() {
                 </div>
                 <ul className="nav-items">
                     <li className="nav-item">
-                        <NavLink to="/" activeclassname="active">
+                        <NavLink to="/snchong-portfolio-main/" activeclassname="active">
                             Introduction
                         </NavLink>
                     </li>
