@@ -1,0 +1,50 @@
+.projectContainer{
+    flex-flow: wrap row;
+    justify-content: left;
+    justify-self: flex-start;
+    align-content: center;
+    display: flex;
+    text-align: left;
+    .projectCard{
+        background-color: #40444b;
+        box-shadow: 3px 3px 6px -3px #2c2c2c;
+        border-radius: 15px;
+        min-width: min-content;
+        padding: 0.4rem;
+        margin: 1rem;
+        flex: 0 1 700px;
+        .workIMG{
+            float:left;
+            min-width: 100px;
+            position: relative;
+            width: 200px;
+            img{
+                height: 100%;
+                max-width: 100%;
+                display: block;
+            }
+        }
+        .workContent{
+            display: flex;
+            padding: 0.5rem;
+            flex-direction: column;
+            min-width: 200px;
+            h2{
+                color: #FFB819;
+            }
+        }
+        .tag{
+            background-color: #2F3136;
+            border-radius: 1rem;
+            padding: .3rem;
+            margin: .1rem;
+            white-space: nowrap;
+
+        }
+    }
+}
+@media screen and (max-width: 411px){
+    .projectCard{
+        max-width: none;
+    }
+}

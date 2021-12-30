@@ -1,0 +1,101 @@
+.NavBar{
+    color: #8e9297;
+    height: 100vh;
+    .nav{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        word-wrap:break-word;
+        justify-content: space-between;
+        .profile{
+            width: 100%;
+            text-align: center;
+            margin-top: 1rem;
+            border-bottom: 1px solid #202225;
+            img{
+                width: 80%;
+                margin: 0 auto;
+                margin-bottom: 1rem;
+                border: 2px solid #202225;
+                border-radius: 50%;
+            }
+        }
+        .nav-items{
+            width: 100%;
+            .nav-item{
+                display: block;
+                list-style: none;
+                text-align: center;
+                position: relative;
+                letter-spacing: 0.05rem;
+                margin-bottom: 0.1rem;
+                a{
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: inherit;
+                    color: inherit;
+                    transition: 0.5s;
+                    position: relative;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 1px;
+                        bottom: -1px;
+                        background-color: #008cff;
+                        transform: scaleX(0);
+                        transition: 0.1s;
+                      }
+                      &:hover::before {
+                        transform: scaleX(1);
+                      }
+                }
+            }
+        }
+
+        .icons{
+            position: flex;
+            align-items: center;
+            padding: 1.5rem 0;
+            a{
+                .icon{
+                    margin-left: 0.25rem;
+                    margin-right: 0.25rem;
+                    font-size: 1.5rem;
+                    color: #8e9297;
+                    transition: 0.3s;
+                }
+                .fb:hover{
+                    color: #4267B2;
+                }
+                .twi:hover{
+                    color: #1DA1F2;
+                }
+                .ws:hover{
+                    color: #128C7E;
+                }
+                .gh:hover{
+                    color: #7a00df;
+                }
+                .ma:hover{
+                    color: #00f7ea;
+                }
+            }
+        }
+
+    }
+    .footer{
+        width: 100%;
+        border-top: 1px solid #202225;
+    }
+    p{
+        text-align: center;
+        padding: 0.4rem 0;
+        font-size: 0.8rem;
+    }
+}
+.active{
+    color: #008cff !important;
+    border-bottom: 1px solid #008cff;
+}

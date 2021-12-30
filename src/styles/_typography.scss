@@ -1,0 +1,26 @@
+.Introduction{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    
+    .intro-content{
+        span{
+            text-transform: uppercase;
+            color: #00ff95;
+        }
+    }
+}
+.hero-text{
+    text-align: center;
+    span{
+        background: linear-gradient(45deg,#382eff,#00ff95 100%);
+        background-clip:text;
+        color: transparent;
+        font-size: 150%;
+    }
+}
+.hero-sub-text{
+    text-align: center;
+}
