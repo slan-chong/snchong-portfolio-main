@@ -1,13 +1,17 @@
 import {MdLocationPin} from 'react-icons/md'
+import {FaDownload} from 'react-icons/fa'
+
 export const AboutMe = () => {
     return (
         <div className="AboutMe">
             <h1 className="title">ABOUT ME</h1>
             <div className="card">
-                    <img src={process.env.PUBLIC_URL +'/img/avatar2.png'} alt=""/>
-                    <p>My name is Chong Shing Nam. A responsible person with problem-solving skills and quick learner.</p> 
-                    <p>I'm graduated from the Eletronic Engineering at Feng Chia University in June, 2021 at Taiwan. Passionate about changing the world with technology. In my free time I like working on side projects.</p>
-            
+                <img src={process.env.PUBLIC_URL +'/img/avatar2.png'} alt=""/>
+                <p>My name is Chong Shing Nam. A responsible person with problem-solving skills and quick learner.</p> 
+                <p>I'm graduated from the Eletronic Engineering at Feng Chia University in June, 2021 at Taiwan. Passionate about changing the world with technology. In my free time I like working on side projects.</p>
+                <div className="center">
+                    <a href="">Resume<FaDownload /></a>
+                </div>
             </div>
             <h1 className="title">EDUCATION</h1>
             <div className="card">

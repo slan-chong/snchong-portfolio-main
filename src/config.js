@@ -5,13 +5,14 @@ export const projects = [
         discription:"My first personal Website with ReactJS",
         categorise:["React", "Open source"],
         siteUrl:"",
-        sourceCodeUrl:""
+        sourceCodeUrl:"https://github.com/slan-chong/snchong-portfolio-main"
     },
     {
         title: "Final year projects",
         img:"/img/Project_IMG02.png",
         discription:"Face recognition System for Healthcare Services",
-        categorise:["Python", "DBMS", "Machine learning"]
+        categorise:["Python", "DBMS", "Machine learning","Open source"],
+        sourceCodeUrl:"https://github.com/slan-chong/Face-recognition-FYP"
     },
     {
         title: "Research project",

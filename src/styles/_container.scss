@@ -48,6 +48,23 @@
         border-radius: 50%;
         border: 4px solid #2F3136;
     }
+    .center{
+        margin: .5rem;
+        text-align: center;
+        a{
+            text-decoration: none;
+            color: #242424;
+            transition: 0.5s;
+            position: relative;
+            background-color: #FFB819;
+            font-size: 1.4rem;
+            padding: .5rem;
+            border-radius: 2rem;
+            &:hover{
+                background-color: #FFE30D;
+            }
+        }
+    }
 }
 .skillsContainer{
     display: flex;
