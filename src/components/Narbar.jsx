@@ -18,17 +18,17 @@ function Narbar() {
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="#/about-me" activeclassname="active">
+                        <NavLink to="/about-me" activeclassname="active">
                             About Me
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="#/skills" activeclassname="active">
+                        <NavLink to="/skills" activeclassname="active">
                             Skills
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="#/projects" activeclassname="active">
+                        <NavLink to="/projects" activeclassname="active">
                             Projects
                         </NavLink>
                     </li>
