@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import {FaFacebook,FaMailBulk,FaTwitter,FaWhatsapp} from 'react-icons/fa';
 import {BsGithub} from 'react-icons/bs'
 
@@ -13,24 +13,24 @@ function Narbar() {
                 </div>
                 <ul className="nav-items">
                     <li className="nav-item">
-                        <Link as={Link} to="/" activeclassname="active">
+                        <NavLink to="/#" activeclassname="active">
                             Introduction
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link as={Link} to="/about-me" activeclassname="active">
+                        <NavLink to="/about-me" activeclassname="active">
                             About Me
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link as={Link} to="/skills" activeclassname="active">
+                        <NavLink to="/skills" activeclassname="active">
                             Skills
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link as={Link} to="/projects" activeclassname="active">
+                        <NavLink to="/projects" activeclassname="active">
                             Projects
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
                 <div className="icons">
