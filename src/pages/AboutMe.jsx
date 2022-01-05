@@ -39,7 +39,7 @@ export const AboutMe = () => {
                 <h2>Cognitio College(Hong Kong)</h2>
                 <h5><MdLocationPin/>Chai Wan, Hong Kong</h5>
                 <h6>2011-2017</h6>
-                <span>Secondart Education</span> <br />
+                <span>Secondary Education</span> <br />
 
             </div>
         </div>
