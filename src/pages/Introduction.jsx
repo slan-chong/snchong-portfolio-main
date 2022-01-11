@@ -2,7 +2,8 @@ export const Introduction = () => {
     return (
         <div className="Introduction">
             <header className="hero-section">
-                 <div className="hero-text"><h1>Hi, I am Slan Chong</h1></div>
+                 <h1> Hi, I am</h1>
+                 <div className="hero-text"><h1>Slan Chong</h1></div>
                  <p className='hero-sub-text'>and this is my portfolio...</p>
             </header>
             <div className="intro-content">
