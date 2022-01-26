@@ -7,8 +7,8 @@ export const AboutMe = () => {
             <h1 className="title">ABOUT ME</h1>
             <div className="card">
                 <img src={process.env.PUBLIC_URL +'/img/avatar2.png'} alt=""/>
-                <p>My name is Chong Shing Nam. A responsible person with problem-solving skills and quick learner.</p> 
-                <p>I'm graduated from the Eletronic Engineering at Feng Chia University in June, 2021 at Taiwan. Passionate about changing the world with technology. In my free time I like working on side projects.</p>
+                <p>My name is Chong Shing Nam. A responsible person with problem-solving skills and a quick learner.</p> 
+                <p>I'm graduated from Electronic Engineering at Feng Chia University in June 2021 in Taiwan. Passionate about changing the world with technology. In my free time, I like working on side projects.</p>
                 <div className="center">
                     <a href="https://github.com/slan-chong/snchong-portfolio-main/raw/main/ChongShingNam_Resume.pdf" download>Resume<FaDownload /></a>
                 </div>
