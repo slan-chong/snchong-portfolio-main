@@ -42,7 +42,7 @@ function Narbar() {
                 </div>
                 <footer className="footer">
                     <p>
-                        @2021 Chong Shing Nam
+                        ©2021 Chong Shing Nam
                     </p>
                 </footer>
             </nav>
