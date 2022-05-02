@@ -1,7 +1,11 @@
 import { MdLocationPin } from "react-icons/md";
 import { FaDownload } from "react-icons/fa";
+import { useEffect } from "react";
 
 export const AboutMe = () => {
+  useEffect(() => {
+    document.title = "About Me";
+  }, []);
   return (
     <div className="AboutMe">
       <h1 className="title">ABOUT ME</h1>

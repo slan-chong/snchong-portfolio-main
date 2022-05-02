@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 export const Introduction = () => {
+  useEffect(() => {
+    document.title = "Introduction";
+  }, []);
   return (
     <div className="Introduction">
       <header className="hero-section">
