@@ -36,7 +36,7 @@ function Narbar() {
           <a href="https://www.facebook.com/w10245123/">
             <FaFacebook className="icon fb" />
           </a>
-          <a href="https://twitter.com/slan1024">
+          <a href="https://twitter.com/Slan_Chong">
             <FaTwitter className="icon twi" />
           </a>
           <a href="https://wa.me/85296552105">
