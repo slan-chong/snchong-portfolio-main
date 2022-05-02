@@ -1,40 +1,48 @@
-.Introduction{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-    width: 75vw;
-    .intro-content{
-        span{
-            text-transform: uppercase;
-            color: #00ff95;
-        }
+.Introduction {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  width: 75vw;
+  .intro-content {
+    span {
+      text-transform: uppercase;
+      color: #00ff95;
     }
+  }
 }
-.hero-section{
-    display: inline-block;
+.hero-section {
+  display: inline-block;
 }
-.hero-text{
-    width: 0;
-    position: relative;
-    overflow: hidden; 
-    white-space: nowrap;
-    border-right: .1em solid #00ff95; 
-    letter-spacing: .1em; 
-    animation: 
-    typing 1.5s steps(8, end)1s 1 forwards,
-    blink-caret .5s step-end infinite;
-    background: linear-gradient(45deg,#382eff,#00ff95 100%);
-    background-clip:text;
-    color: transparent;
-    font-size: 150%;
-    }
+.hero-text {
+  width: 0;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.1em solid #00ff95;
+  letter-spacing: 0.1em;
+  animation: typing 1.5s steps(8, end) 1s 1 forwards,
+    blink-caret 0.5s step-end infinite;
+  background: linear-gradient(45deg, #382eff, #00ff95 100%);
+  background-clip: text;
+  color: transparent;
+  font-size: 150%;
+}
 @keyframes typing {
-from { width: 0 }
-to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 @keyframes blink-caret {
-from, to { border-color: transparent }
-50% { border-color: #00ff95 }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #00ff95;
+  }
 }

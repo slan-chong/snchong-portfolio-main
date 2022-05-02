@@ -1,4 +1,4 @@
-const SKILLS = [
+export const SKILLS = [
   {
     type: "PL",
     name: "HTML5",
@@ -95,4 +95,3 @@ const SKILLS = [
     src: "https://upload.wikimedia.org/wikipedia/commons/archive/7/7e/20211122181859%21Spyder_logo.svg",
   },
 ];
-export { SKILLS };
