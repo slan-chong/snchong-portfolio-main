@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/snchong-portfolio-main/static/css/main.ffdfca15.css",
-    "main.js": "/snchong-portfolio-main/static/js/main.fb587831.js",
+    "main.js": "/snchong-portfolio-main/static/js/main.c230362d.js",
     "index.html": "/snchong-portfolio-main/index.html",
     "main.ffdfca15.css.map": "/snchong-portfolio-main/static/css/main.ffdfca15.css.map",
-    "main.fb587831.js.map": "/snchong-portfolio-main/static/js/main.fb587831.js.map"
+    "main.c230362d.js.map": "/snchong-portfolio-main/static/js/main.c230362d.js.map"
   },
   "entrypoints": [
     "static/css/main.ffdfca15.css",
-    "static/js/main.fb587831.js"
+    "static/js/main.c230362d.js"
   ]
 }
