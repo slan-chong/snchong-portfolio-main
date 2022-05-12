@@ -9,6 +9,7 @@ import { Projects } from "./pages/Projects";
 //styles
 import "./App.scss";
 import { SKILLS } from "./config/config";
+import { projects } from "./config";
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -27,6 +28,7 @@ function App() {
   useEffect(() => {
     try {
       SKILLS.map((skill) => catchImages(skill.src));
+      projects.map((project) => catchImages(project.img));
       catchImages(process.env.PUBLIC_URL + "/img/avatar2.png");
     } catch (e) {
       console.log(e);
