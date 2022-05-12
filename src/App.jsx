@@ -1,6 +1,6 @@
 import Narbar from "./components/Narbar";
 import { Routes, Route } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 //Pages
 import { Introduction } from "./pages/Introduction";
 import { AboutMe } from "./pages/AboutMe";
@@ -8,6 +8,7 @@ import { Skills } from "./pages/Skills";
 import { Projects } from "./pages/Projects";
 //styles
 import "./App.scss";
+import { SKILLS } from "./config/config";
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -15,6 +16,22 @@ function App() {
   const navClick = () => {
     setNavToggle(!navToggle);
   };
+  const catchImages = (src) => {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.src = src;
+      img.onload = resolve();
+      img.onerror = reject();
+    });
+  };
+  useEffect(() => {
+    try {
+      SKILLS.map((skill) => catchImages(skill.src));
+      catchImages(process.env.PUBLIC_URL + "/img/avatar2.png");
+    } catch (e) {
+      console.log(e);
+    }
+  }, []);
   return (
     <div className="App">
       <div className={`sidebar ${navToggle ? `nav-toggle` : ``}`}>
