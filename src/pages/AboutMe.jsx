@@ -10,7 +10,7 @@ export const AboutMe = () => {
     <div className="AboutMe">
       <h1 className="title">ABOUT ME</h1>
       <div className="card">
-        <img src={process.env.PUBLIC_URL + "/img/avatar2.png"} alt="" />
+        <img src={process.env.PUBLIC_URL + "/img/avatar2.webp"} alt="" />
         <p>
           My name is Chong Shing Nam. A responsible person with problem-solving
           skills and a quick learner.

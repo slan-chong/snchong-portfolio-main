@@ -9,14 +9,14 @@ export const projects = [
   },
   {
     title: "Final year projects",
-    img: "/img/Project_IMG02.png",
+    img: "/img/Project_IMG02.webp",
     discription: "Face recognition System for Healthcare Services",
     categorise: ["Python", "DBMS", "Machine learning", "Open source"],
     sourceCodeUrl: "https://github.com/slan-chong/Face-recognition-FYP",
   },
   {
     title: "Research project",
-    img: "/img/Project_IMG01.png",
+    img: "/img/Project_IMG01.webp",
     discription: "Analyze an architectural floor plan database",
     categorise: ["Computer vision", "Machine learning"],
   },
