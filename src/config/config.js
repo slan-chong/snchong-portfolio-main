@@ -12,7 +12,7 @@ export const SKILLS = [
   {
     type: "PL",
     name: "JavaScript",
-    src: "https://upload.vectorlogo.zone/logos/javascript/images/239ec8a4-163e-4792-83b6-3f6d96911757.svg",
+    src: "https://www.svgrepo.com/show/303206/javascript-logo.svg",
   },
   {
     type: "PL",
@@ -46,8 +46,18 @@ export const SKILLS = [
   },
   {
     type: "Frameworks",
-    name: ">Keras",
+    name: "Keras",
     src: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg",
+  },
+  {
+    type: "Frameworks",
+    name: "Sass",
+    src: "https://www.vectorlogo.zone/logos/sass-lang/sass-lang-icon.svg",
+  },
+  {
+    type: "Frameworks",
+    name: "Tailwind",
+    src: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
   },
   {
     type: "Other",
