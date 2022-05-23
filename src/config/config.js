@@ -26,13 +26,23 @@ export const SKILLS = [
   },
   {
     type: "Frameworks",
-    name: "NodeJS",
-    src: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+    name: "MongoDB",
+    src: "https://img.icons8.com/color/144/000000/mongodb.png",
+  },
+  {
+    type: "Frameworks",
+    name: "ExpressJS",
+    src: "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
   },
   {
     type: "Frameworks",
     name: "React",
     src: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+  },
+  {
+    type: "Frameworks",
+    name: "NodeJS",
+    src: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
   },
   {
     type: "Frameworks",
@@ -50,12 +60,12 @@ export const SKILLS = [
     src: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg",
   },
   {
-    type: "Frameworks",
+    type: "Other",
     name: "Sass",
     src: "https://www.vectorlogo.zone/logos/sass-lang/sass-lang-icon.svg",
   },
   {
-    type: "Frameworks",
+    type: "Other",
     name: "Tailwind",
     src: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
   },
