@@ -16,7 +16,7 @@ export const projects = [
   },
   {
     title: "MERN-stack todolist",
-    img: "/img/Project_IMG02.webp",
+    img: "/img/Project_IMG03.png",
     discription:
       "https://628def3b7f24ee5962a66b67--lovely-jalebi-35f5f7.netlify.app/",
     categorise: ["React", "Mongo", "Tailwind"],
