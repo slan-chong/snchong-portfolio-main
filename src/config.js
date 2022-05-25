@@ -15,6 +15,14 @@ export const projects = [
     sourceCodeUrl: "https://github.com/slan-chong/Face-recognition-FYP",
   },
   {
+    title: "MERN-stack todolist",
+    img: "/img/Project_IMG02.webp",
+    discription:
+      "https://628def3b7f24ee5962a66b67--lovely-jalebi-35f5f7.netlify.app/",
+    categorise: ["React", "Mongo", "Tailwind"],
+    sourceCodeUrl: "https://github.com/slan-chong/mern-todolist",
+  },
+  {
     title: "Research project",
     img: "/img/Project_IMG01.webp",
     discription: "Analyze an architectural floor plan database",
