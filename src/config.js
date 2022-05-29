@@ -22,6 +22,13 @@ export const projects = [
     sourceCodeUrl: "https://github.com/slan-chong/mern-todolist",
   },
   {
+    title: "Github profile",
+    img: "/img/Project_IMG04.png",
+    discription: "https://gh-api-profile.netlify.app/",
+    categorise: ["React", "Tailwind"],
+    sourceCodeUrl: "https://github.com/slan-chong/github-profile",
+  },
+  {
     title: "Research project",
     img: "/img/Project_IMG01.webp",
     discription: "Analyze an architectural floor plan database",
