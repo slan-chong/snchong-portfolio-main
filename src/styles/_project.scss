@@ -1,3 +1,97 @@
+.Projects {
+  max-width: 80vw;
+  .categorie {
+    background-color: #2f3136;
+    border-radius: 20px;
+    padding-bottom: 16px;
+  }
+  .form-check {
+    display: inline-block;
+    padding: 4px;
+    margin-bottom: 16px;
+    .form-check-input {
+      margin-left: 4px;
+      margin-right: 4px;
+      position: relative;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      top: 4px;
+      border: none;
+    }
+    .form-check-label {
+      display: inline;
+      padding: 8px;
+      background-color: #008cff;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+  }
+  .project {
+    width: 80%;
+    min-width: 250px;
+    max-width: 30vw;
+    display: inline-block;
+    flex-direction: column;
+    margin: 16px;
+    padding: 8px;
+    border: #008cff 2px solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px -3px #2c2c2c;
+    background-color: #40444b;
+    .hero-section {
+      h3 {
+        margin-bottom: 8px;
+      }
+      img {
+        width: 288px;
+        max-width: 100%;
+      }
+    }
+  }
+  .info {
+    .discription {
+      word-wrap: break-word;
+      font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    }
+    .link {
+      margin-bottom: 0.8rem;
+      a {
+        text-decoration: none;
+        .demo {
+          color: #242424;
+          transition: 0.5s;
+          position: relative;
+          background-color: #ffb819;
+          padding: 0.5rem;
+          border-radius: 2rem;
+          &:hover {
+            background-color: #ffe30d;
+          }
+        }
+        .icon {
+          margin-left: 0.25rem;
+          margin-right: 0.25rem;
+          font-size: 2rem;
+          color: #8e9297;
+          transition: 0.3s;
+          top: auto;
+        }
+        .gh:hover {
+          color: #7a00df;
+        }
+      }
+    }
+    .tag {
+      display: inline-block;
+      border: 2px solid #2c2c2c;
+      padding: 4px;
+      margin-left: 8px;
+      margin-bottom: 8px;
+    }
+  }
+}
+
 .projectContainer {
   flex-flow: wrap row;
   justify-content: left;
