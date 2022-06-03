@@ -35,7 +35,7 @@ export const projects = [
     title: "Final year projects",
     img: "/img/Project_IMG02.webp",
     discription: "Face recognition System for Healthcare Services",
-    categorise: ["Python", "SQLite", "Tensorflow", "Keras"],
+    categorise: ["Python", "SQLite", "Computer vision", "Tensorflow", "Keras"],
     sourceCodeUrl: "https://github.com/slan-chong/Face-recognition-FYP",
   },
 ];

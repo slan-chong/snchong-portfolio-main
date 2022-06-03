@@ -61,46 +61,49 @@ export const Projects = () => {
           </div>
         ))}
       </div>
-      {projects.map((project) => {
-        if (
-          project.categorise.some(
-            (tag) =>
-              categories
-                .map((filter) => (filter.isChecked ? filter.name : null))
-                .indexOf(tag) > -1
-          )
-        ) {
-          return (
-            <div className="project">
-              <div className="hero-section">
-                <h3>{project.title}</h3>
-                <img
-                  src={process.env.PUBLIC_URL + project.img}
-                  alt={project.title}
-                />
-              </div>
-              <div className="info">
-                <div className="discription">{project.discription}</div>
-                <div className="link">
-                  {project.demoUrl ? (
-                    <a href={project.demoUrl}>
-                      <span className="demo">Demo</span>
-                    </a>
-                  ) : null}
-                  {project.sourceCodeUrl ? (
-                    <a href={project.sourceCodeUrl}>
-                      <BsGithub className="icon gh" />
-                    </a>
-                  ) : null}
+      <div className="projectContainer">
+        {projects.map((project) => {
+          if (
+            project.categorise.some(
+              (tag) =>
+                categories
+                  .map((filter) => (filter.isChecked ? filter.name : null))
+                  .indexOf(tag) > -1
+            )
+          ) {
+            return (
+              <div className="project">
+                <div className="hero-section">
+                  <h3>{project.title}</h3>
+                  <img
+                    src={process.env.PUBLIC_URL + project.img}
+                    alt={project.title}
+                  />
                 </div>
-                {project.categorise.map((tag) => {
-                  return <div className="tag">{tag}</div>;
-                })}
+                <div className="info">
+                  <div className="discription">{project.discription}</div>
+                  <div className="link">
+                    {project.demoUrl ? (
+                      <a href={project.demoUrl}>
+                        <span className="demo">Demo</span>
+                      </a>
+                    ) : null}
+                    {project.sourceCodeUrl ? (
+                      <a href={project.sourceCodeUrl}>
+                        <BsGithub className="icon gh" />
+                      </a>
+                    ) : null}
+                  </div>
+                  {project.categorise.map((tag) => {
+                    return <div className="tag">{tag}</div>;
+                  })}
+                </div>
               </div>
-            </div>
-          );
-        }
-      })}
+            );
+          }
+          return null;
+        })}
+      </div>
     </div>
   );
 };

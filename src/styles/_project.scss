@@ -27,13 +27,29 @@
       cursor: pointer;
     }
   }
+  .projectContainer {
+    display: flex;
+    column-count: 2;
+    text-align: center;
+    flex-flow: wrap row;
+  }
+  @media (max-width: 1024px) {
+    .projectContainer {
+      column-count: 1;
+      .project {
+        min-width: 100%;
+        margin-top: 16px;
+      }
+    }
+  }
   .project {
-    width: 80%;
+    width: 46%;
     min-width: 250px;
-    max-width: 30vw;
     display: inline-block;
     flex-direction: column;
-    margin: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
     padding: 8px;
     border: #008cff 2px solid;
     border-radius: 20px;
@@ -46,6 +62,7 @@
       img {
         width: 288px;
         max-width: 100%;
+        border-radius: 16px;
       }
     }
   }
@@ -61,7 +78,6 @@
         .demo {
           color: #242424;
           transition: 0.5s;
-          position: relative;
           background-color: #ffb819;
           padding: 0.5rem;
           border-radius: 2rem;
@@ -75,7 +91,6 @@
           font-size: 2rem;
           color: #8e9297;
           transition: 0.3s;
-          top: auto;
         }
         .gh:hover {
           color: #7a00df;
@@ -92,66 +107,66 @@
   }
 }
 
-.projectContainer {
-  flex-flow: wrap row;
-  justify-content: left;
-  justify-self: flex-start;
-  align-content: center;
-  display: flex;
-  text-align: left;
-  .projectCard {
-    background-color: #40444b;
-    box-shadow: 3px 3px 6px -3px #2c2c2c;
-    border-radius: 15px;
-    min-width: min-content;
-    padding: 0.4rem;
-    margin: 1rem;
-    flex: 0 1 700px;
-    .workIMG {
-      float: left;
-      min-width: 100px;
-      position: relative;
-      width: 200px;
-      img {
-        max-width: 100%;
-        display: block;
-      }
-    }
-    .workContent {
-      display: flex;
-      padding: 0.5rem;
-      flex-direction: column;
-      min-width: 200px;
-      h2 {
-        color: #ffb819;
-      }
-      a {
-        text-align: right;
-        .icon {
-          font-size: 1.5rem;
-          color: #8e9297;
-          transition: 0.3s;
-          .gh:hover {
-            color: #7a00df;
-          }
-        }
-      }
-    }
-    .tagList {
-      display: flex;
-      flex-flow: wrap row;
-      .tag {
-        background-color: #2f3136;
-        border-radius: 1rem;
-        padding: 0.3rem;
-        margin: 0.1rem;
-        white-space: nowrap;
-      }
-    }
-  }
-}
-@media screen and (max-width: 411px) {
-  .projectCard {
-    max-width: none;
-  }
-}
+// .projectContainer {
+//   flex-flow: wrap row;
+//   justify-content: left;
+//   justify-self: flex-start;
+//   align-content: center;
+//   display: flex;
+//   text-align: left;
+//   .projectCard {
+//     background-color: #40444b;
+//     box-shadow: 3px 3px 6px -3px #2c2c2c;
+//     border-radius: 15px;
+//     min-width: min-content;
+//     padding: 0.4rem;
+//     margin: 1rem;
+//     flex: 0 1 700px;
+//     .workIMG {
+//       float: left;
+//       min-width: 100px;
+//       position: relative;
+//       width: 200px;
+//       img {
+//         max-width: 100%;
+//         display: block;
+//       }
+//     }
+//     .workContent {
+//       display: flex;
+//       padding: 0.5rem;
+//       flex-direction: column;
+//       min-width: 200px;
+//       h2 {
+//         color: #ffb819;
+//       }
+//       a {
+//         text-align: right;
+//         .icon {
+//           font-size: 1.5rem;
+//           color: #8e9297;
+//           transition: 0.3s;
+//           .gh:hover {
+//             color: #7a00df;
+//           }
+//         }
+//       }
+//     }
+//     .tagList {
+//       display: flex;
+//       flex-flow: wrap row;
+//       .tag {
+//         background-color: #2f3136;
+//         border-radius: 1rem;
+//         padding: 0.3rem;
+//         margin: 0.1rem;
+//         white-space: nowrap;
+//       }
+//     }
+//   }
+// }
+// @media screen and (max-width: 411px) {
+//   .projectCard {
+//     max-width: none;
+//   }
+// }
