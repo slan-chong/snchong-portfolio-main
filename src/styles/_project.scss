@@ -72,7 +72,10 @@
       font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
     }
     .link {
-      margin-bottom: 0.8rem;
+      margin: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       a {
         text-decoration: none;
         .demo {
