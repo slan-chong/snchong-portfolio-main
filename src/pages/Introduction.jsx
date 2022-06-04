@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 export const Introduction = () => {
   useEffect(() => {
@@ -21,9 +22,19 @@ export const Introduction = () => {
         <div className="info">
           <p>
             Welcome to my website. I make a stuff which are pretty and
-            responsive. Please feel free to read<span>about me</span>, or you
-            can check out my <span>projects</span>, <span>skills</span>, or{" "}
-            <span>contact me</span>.
+            responsive. Please feel free to read{" "}
+            <NavLink to="/about-me">
+              <span>about me</span>
+            </NavLink>
+            , or you can check out my{" "}
+            <NavLink to="/skills">
+              <span>skills</span>
+            </NavLink>
+            ,{" "}
+            <NavLink to="/projects">
+              <span>projects</span>
+            </NavLink>
+            , or contact me.
           </p>
         </div>
       </div>

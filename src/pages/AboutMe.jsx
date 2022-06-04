@@ -53,7 +53,12 @@ export const AboutMe = () => {
           <li>Database Management Systems</li>
           <li>Object-oriented programming</li>
         </ul>
-        <h2>Computational Analytics & Cognitive Vision Lab</h2>
+        <a
+          href="https://sites.google.com/mail.fcu.edu.tw/cacv/team-member"
+          className="link"
+        >
+          <h2>Computational Analytics & Cognitive Vision Lab</h2>
+        </a>
         <h5>
           <MdLocationPin />
           Feng Chia University, CACV Lab

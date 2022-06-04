@@ -28,8 +28,9 @@ export const projects = [
     title: "Research project",
     img: "/img/Project_IMG01.webp",
     discription:
-      "Analyze an architectural floor plan database.A Real-Estate Recommender System from Architectural Floor Plan Images",
+      "Analyze an architectural floor plan database.A Real-Estate Recommender System from Architectural Floor Plan Images.",
     categorise: ["Computer vision", "MATLAB"],
+    demoUrl: "https://www.hindawi.com/journals/sp/2021/9914557/",
   },
   {
     title: "Final year projects",
@@ -37,6 +38,7 @@ export const projects = [
     discription: "Face recognition System for Healthcare Services",
     categorise: ["Python", "SQLite", "Computer vision", "Tensorflow", "Keras"],
     sourceCodeUrl: "https://github.com/slan-chong/Face-recognition-FYP",
+    demoUrl: "https://www.youtube.com/watch?v=EO3mGCSM9jE",
   },
 ];
 
