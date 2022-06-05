@@ -22,7 +22,7 @@ export const AboutMe = () => {
         </p>
         <div className="center">
           <a
-            href="https://github.com/slan-chong/snchong-portfolio-main/raw/main/ChongShingNam_Resume.pdf"
+            href="https://github.com/slan-chong/snchong-portfolio-main/raw/main/ChongShingNam.pdf"
             download
           >
             Resume
