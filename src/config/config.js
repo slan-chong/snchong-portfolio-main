@@ -71,6 +71,11 @@ export const SKILLS = [
   },
   {
     type: "Other",
+    name: "Material-Ui",
+    src: "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg",
+  },
+  {
+    type: "Other",
     name: "SQLite",
     src: "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg",
   },
@@ -86,11 +91,6 @@ export const SKILLS = [
   },
   {
     type: "Other",
-    name: "MATLAB",
-    src: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
-  },
-  {
-    type: "Other",
     name: "LaTeX",
     src: "https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg",
   },
@@ -98,6 +98,11 @@ export const SKILLS = [
     type: "Software",
     name: "Blender",
     src: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg",
+  },
+  {
+    type: "Software",
+    name: "MATLAB",
+    src: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
   },
   {
     type: "Software",
