@@ -29,6 +29,7 @@
   }
   .projectContainer {
     display: flex;
+    justify-content: space-between;
     column-count: 2;
     text-align: center;
     flex-flow: wrap row;
@@ -38,18 +39,16 @@
       column-count: 1;
       .project {
         min-width: 100%;
+        margin: 0;
         margin-top: 16px;
       }
     }
   }
   .project {
-    width: 46%;
-    min-width: 250px;
+    width: calc(50% - 16px);
     display: inline-block;
     flex-direction: column;
-    margin-right: 16px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin: 8px;
     padding: 12px;
     border: #008cff 2px solid;
     border-radius: 20px;
