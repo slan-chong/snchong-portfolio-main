@@ -2,14 +2,14 @@ export const projects = [
   {
     title: "Personal Website",
     img: "/img/avatar.png",
-    discription: "My first personal Website, Built using React ",
+    description: "My first personal Website, Built using React ",
     categorise: ["React"],
     sourceCodeUrl: "https://github.com/slan-chong/snchong-portfolio-main",
   },
   {
     title: "Github profile",
     img: "/img/Project_IMG04.png",
-    discription: "Show github user repository and the last push commit time",
+    description: "Show github user repository and the last push commit time",
     categorise: ["React", "Tailwind"],
     demoUrl: "https://gh-api-profile.netlify.app/",
     sourceCodeUrl: "https://github.com/slan-chong/github-profile",
@@ -17,7 +17,7 @@ export const projects = [
   {
     title: "MERN-stack todolist",
     img: "/img/Project_IMG03.png",
-    discription:
+    description:
       "todolist with React, connecting to MongoDB with ExpressJS. Every time the state is change, it will send a request to the database",
     categorise: ["React", "MongoDB", "Tailwind", "ExpressJS", "NodeJS"],
     demoUrl: "https://mern-stack-todolist.netlify.app/",
@@ -27,7 +27,7 @@ export const projects = [
   {
     title: "Research project",
     img: "/img/Project_IMG01.webp",
-    discription:
+    description:
       "Analyze an architectural floor plan database.A Real-Estate Recommender System from Architectural Floor Plan Images.",
     categorise: ["Computer vision", "MATLAB"],
     demoUrl: "https://www.hindawi.com/journals/sp/2021/9914557/",
@@ -35,7 +35,7 @@ export const projects = [
   {
     title: "Final year projects",
     img: "/img/Project_IMG02.webp",
-    discription: "Face recognition System for Healthcare Services",
+    description: "Face recognition System for Healthcare Services",
     categorise: ["Python", "SQLite", "Computer vision", "Tensorflow", "Keras"],
     sourceCodeUrl: "https://github.com/slan-chong/Face-recognition-FYP",
     demoUrl: "https://www.youtube.com/watch?v=EO3mGCSM9jE",

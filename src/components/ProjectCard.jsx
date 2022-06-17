@@ -11,7 +11,7 @@ export const ProjectCard = () => {
       <div className="workContent">
         <h2>{project.title}</h2>
         <p>
-          {project.discription}
+          {project.description}
           {project.sourceCodeUrl ? (
             <a href={project.sourceCodeUrl}>
               <BsGithub className="icon gh" />

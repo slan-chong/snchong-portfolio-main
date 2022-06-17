@@ -81,7 +81,7 @@ export const Projects = () => {
                   />
                 </div>
                 <div className="info">
-                  <div className="discription">{project.discription}</div>
+                  <div className="description">{project.description}</div>
                   <div className="link">
                     {project.demoUrl ? (
                       <a href={project.demoUrl}>
