@@ -46,6 +46,11 @@ export const SKILLS = [
   },
   {
     type: "Frameworks",
+    name: "NextJS",
+    src: "https://www.svgrepo.com/show/354112/nextjs.svg",
+  },
+  {
+    type: "Frameworks",
     name: "Flask",
     src: "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg",
   },
