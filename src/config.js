@@ -7,6 +7,14 @@ export const projects = [
     sourceCodeUrl: "https://github.com/slan-chong/snchong-portfolio-main",
   },
   {
+    title: "Pokedex",
+    img: "/img/Project_IMG05.png",
+    description: "Pokemon Collection",
+    categorise: ["NextJS", "Tailwind"],
+    demoUrl: "https://pokedex-next-js.netlify.app/",
+    sourceCodeUrl: "https://github.com/slan-chong/nextjs-pokedex",
+  },
+  {
     title: "Github profile",
     img: "/img/Project_IMG04.png",
     description: "Show github user repository and the last push commit time",
@@ -53,7 +61,7 @@ export const filters = [
   },
   {
     id: 3,
-    name: "ExpressJS",
+    name: "NextJS",
   },
   {
     id: 4,
