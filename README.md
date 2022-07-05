@@ -1,7 +1,9 @@
 # Slan Chong Portfolio Website
 I make a stuff which are pretty and responsive.
+
 DEMO:https://slan-chong.github.io/snchong-portfolio-main/
-or [@Click Here](https://slan-chong.github.io/snchong-portfolio-main/)
+or 
+[Click Here](https://slan-chong.github.io/snchong-portfolio-main/)
 ## Description
 My first personal Website, Built using React and Sass make it look better.
 I started this process by using the `create-react-app`
