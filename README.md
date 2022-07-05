@@ -8,14 +8,16 @@ I started this process by using the `create-react-app`
 Please feel free to read ABOUT ME, or you can check out my SKILLS, PROJECTS, or contact me.
 ## Getting Started
 Clone down this repository. You will need `NodeJS` and `npm` installed globally on your machine.  
+
 Installation:
-`npm install`  
+`npm install` 
 or
-`yarn add`
+`yarn add` 
+
 To Start Website:
-`npm start`
+`npm start` 
 or
-`yarn start`
+`yarn start` 
 
 ## Authors
 [@Slan Chong](https://twitter.com/Slan_Chong)
